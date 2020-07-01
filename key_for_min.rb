@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   person = []
   name_hash.each do |name, number|
-    if number < number,length
+    if number < number.length
       person = name
     end
   end
