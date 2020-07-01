@@ -5,8 +5,7 @@ def key_for_min_value(name_hash)
   person = ""
   name_hash.each do |name, number|
     if number < 15
-      person = name
+      name
     end
   end
-  person
 end
