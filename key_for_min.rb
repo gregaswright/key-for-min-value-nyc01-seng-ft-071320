@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |name, age|
-    age.max(2)
+    puts age.max(2)
 
-  
+
   end
 end
