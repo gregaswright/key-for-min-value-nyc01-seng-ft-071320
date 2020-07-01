@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if number < min_number
       min_num = number
       person = name
-  
+
     end
   end
   person
