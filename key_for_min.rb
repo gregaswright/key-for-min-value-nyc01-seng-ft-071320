@@ -4,11 +4,11 @@
 def key_for_min_value(name_hash)
   person = ""
   name_hash.each do |name, number|
-    if name[0] < name[1] && name[2]
+    if name[2] < name[0] && name[2]
       person = name
     elsif name[1] < name[2] && name[0]
       person = name
-    elsif name[2] < name[0] && name[1]
+    elsif name[0] < name[2] && name[1]
       person = name
     end
   end
