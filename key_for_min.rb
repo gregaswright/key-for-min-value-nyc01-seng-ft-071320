@@ -2,9 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  name_hash.each do |key, value|
-    puts value.max()
-
-
+  person = ""
+  name_hash.each do |name, number|
+    if name && number < name_hash.max(2)
+      person = name
+    end
   end
+  person
 end
