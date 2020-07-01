@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   person = ""
-  name_hash.select do |name, number|
+  name_hash.each do |name, number|
     if name[0] < name[1] && name[2]
       person = name
     elsif name[1] < name[2] && name[0]
