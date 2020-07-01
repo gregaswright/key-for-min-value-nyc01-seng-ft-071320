@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |name, age|
-    if age < age.max(2)
-      name
+    age.max(2)
+      
     end
   end
 end
