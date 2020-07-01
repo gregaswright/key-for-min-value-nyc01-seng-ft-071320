@@ -5,9 +5,11 @@ def key_for_min_value(name_hash)
   person = nil
   min_num = nil
   name_hash.each do |name, number|
-    if number < min_num | min_num == nil
+    if number < min_num
       min_num = number
       person = name
+    elsif min_num == nil
+      min_num = number
     end
   end
   person
