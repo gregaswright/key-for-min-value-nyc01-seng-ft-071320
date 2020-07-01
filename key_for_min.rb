@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     elsif min_num < number[2]
       min_num = number
       person = name
-      
+
     else
       person
     end
