@@ -10,7 +10,6 @@ def key_for_min_value(name_hash)
       person = name
     elsif min_num = nil
       min_num = number
-
     end
   end
   person
